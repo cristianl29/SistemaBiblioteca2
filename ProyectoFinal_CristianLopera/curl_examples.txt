@@ -1,0 +1,19 @@
+# Registro
+curl -X POST http://localhost:8080/api/v1/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{"username": "user", "password": "secret"}'
+
+# Login
+curl -X POST http://localhost:8080/api/v1/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"username": "user", "password": "secret"}'
+
+# Listar libros (reemplaza TOKEN con el JWT obtenido)
+curl -X GET http://localhost:8080/api/v1/libros \
+  -H "Authorization: Bearer TOKEN"
+
+# Crear libro
+curl -X POST http://localhost:8080/api/v1/libros \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer TOKEN" \
+  -d '{"titulo": "Libro Nuevo", "autor": "Autor X", "anio": 2024}'
