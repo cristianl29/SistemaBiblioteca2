@@ -1,9 +1,7 @@
-# Sistema Biblioteca - API (Final) - Entrega para Cristian Lopera
+# Sistema Biblioteca - API (Final) - segunda entrega de Cristian Monsalve Lopera
 
-Proyecto listo para entrega (paquete con JWT, validaciones, pruebas, Docker, Postman examples).
+Proyecto (paquete con JWT, validaciones, pruebas, Docker, Postman examples).
 
-## Paquete
-Código en Java bajo el paquete `com.cristianlopera.biblioteca`.
 
 ## Ejecutar local (sin Docker)
 1. Tener Java 17+ y Maven.
