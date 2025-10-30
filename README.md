@@ -28,3 +28,6 @@ mvn test
 
 ## Postman y curl
 Importa `Biblioteca_API.postman_collection.json` en Postman o usa `curl_examples.txt`.
+
+AuthController
+<img width="1153" height="809" alt="image" src="https://github.com/user-attachments/assets/dc8df572-7039-48e5-8031-3999402c89b3" />
