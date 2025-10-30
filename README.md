@@ -1,4 +1,4 @@
-# Sistema Biblioteca - API (Final) - segunda entrega de Cristian Monsalve Lopera
+# Sistema Biblioteca - segunda entrega de Cristian Monsalve Lopera
 
 Proyecto (paquete con JWT, validaciones, pruebas, Docker, Postman examples).
 
